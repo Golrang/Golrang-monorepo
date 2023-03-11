@@ -1,8 +1,8 @@
-import { Form } from "antd";
-import { useController } from "react-hook-form";
+import { Form } from 'antd'
+import { useController } from 'react-hook-form'
 
-import { AutoComplete } from "components/auto-complete";
-import type { TFormAutoComplete } from "./form-auto-complete.types";
+import { AutoComplete } from '../../components/auto-complete'
+import type { TFormAutoComplete } from './form-auto-complete.types'
 
 export const FormAutoComplete = <G extends string>({
   label,
@@ -12,7 +12,7 @@ export const FormAutoComplete = <G extends string>({
   const {
     field,
     fieldState: { error },
-  } = useController({ name });
+  } = useController({ name })
   return (
     <Form.Item label={label} name={name}>
       <>
@@ -20,5 +20,5 @@ export const FormAutoComplete = <G extends string>({
         {error && <div className="text-red-500">{error.message}</div>}
       </>
     </Form.Item>
-  );
-};
+  )
+}

@@ -21,11 +21,7 @@
     "composite": true,
     "moduleResolution": "Node",
     "allowSyntheticDefaultImports": true,
-    "suppressImplicitAnyIndexErrors": true,
-    "baseUrl": "./src",
-    "paths": {
-      "~/*": ["./*"]
-    }
+    "suppressImplicitAnyIndexErrors": true
   },
   "include": ["vite.config.ts", ".", "./package.json"],
   "exclude": ["dist", "build", "node_modules"]

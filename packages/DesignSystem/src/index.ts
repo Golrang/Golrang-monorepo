@@ -3,7 +3,6 @@ import './styles/index.css'
 export * from './icons'
 export * from './hooks'
 
-export * from './components/config-provider'
 export * from './components/input'
 export * from './components/button'
 export * from './components/radio'

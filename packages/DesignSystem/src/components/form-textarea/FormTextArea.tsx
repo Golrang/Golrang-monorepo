@@ -1,5 +1,5 @@
 import { Form } from 'antd'
-import { TextArea } from 'components/input/textarea'
+import { TextArea } from '../../components/input/textarea'
 import { useController } from 'react-hook-form'
 import { TFormTextarea } from './form-textarea.types'
 

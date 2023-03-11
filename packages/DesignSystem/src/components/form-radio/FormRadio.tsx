@@ -1,10 +1,14 @@
 import { Form } from 'antd'
-import { Radio } from 'components/radio/Radio'
+import { Radio } from '../../components/radio/Radio'
 import { useController } from 'react-hook-form'
 import { TFormRadio } from './form-radio-types'
 
-
-export const FormRadio = <G extends string>({ name,label, options, ...rest }: TFormRadio<G>) => {
+export const FormRadio = <G extends string>({
+  name,
+  label,
+  options,
+  ...rest
+}: TFormRadio<G>) => {
   const {
     field,
     fieldState: { error },

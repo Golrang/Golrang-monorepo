@@ -1,5 +1,5 @@
 import { Form } from 'antd'
-import { DatePicker } from 'components/datepicker/DatePicker'
+import { DatePicker } from '../../components/datepicker/DatePicker'
 import { useController } from 'react-hook-form'
 import { TFormDatePicker } from './form-datepicker.types'
 

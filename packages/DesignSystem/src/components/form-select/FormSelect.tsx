@@ -1,5 +1,5 @@
 import { Form } from 'antd'
-import { Select } from 'components/select/Select'
+import { Select } from '../../components/select/Select'
 import { useController } from 'react-hook-form'
 import { TFormSelect } from './from-select.types'
 

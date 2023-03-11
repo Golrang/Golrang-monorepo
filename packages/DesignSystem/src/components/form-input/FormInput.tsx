@@ -1,5 +1,5 @@
 import { Form } from 'antd'
-import { Input } from 'components/input/Input'
+import { Input } from '../../components/input/Input'
 import { useController } from 'react-hook-form'
 import { TFormInput } from './form-input.types'
 

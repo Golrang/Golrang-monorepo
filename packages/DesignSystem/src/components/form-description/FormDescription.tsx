@@ -1,5 +1,5 @@
 import { Form } from 'antd'
-import { Descriptions } from 'components/description'
+import { Descriptions } from '../../components/description'
 import { useController } from 'react-hook-form'
 import { TFormDescription } from './form-description.types'
 

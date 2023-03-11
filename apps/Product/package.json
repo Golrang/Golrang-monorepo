@@ -3,10 +3,10 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "vite",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject",
+    "dev": "yarn type && vite",
+    "build": "yarn type && vite build",
+    "preview": "vite preview",
+    "type": "tsc --noEmit --p './tsconfig.check.json'",
     "proxy": "node ./api-server.js",
     "startServers": "concurrently --kill-others \"npm run proxy\" \"npm run start\"",
     "lint": "eslint --fix \"./src/**/*.{js,jsx,ts,tsx,json}\""

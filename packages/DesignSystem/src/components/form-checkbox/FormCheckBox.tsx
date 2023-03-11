@@ -1,5 +1,5 @@
 import { Form } from 'antd'
-import { CheckBox } from 'components/checkbox/CheckBox'
+import { CheckBox } from '../../components/checkbox/CheckBox'
 import { useController } from 'react-hook-form'
 import { TFormCheckBox } from './form-checkbox.types'
 

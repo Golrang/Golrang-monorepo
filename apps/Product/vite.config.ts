@@ -28,4 +28,7 @@ export default defineConfig({
   resolve: {
     alias: [{ find: /^~/, replacement: '' }],
   },
+  build: {
+    outDir: './build',
+  },
 });
