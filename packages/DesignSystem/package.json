@@ -10,7 +10,7 @@
   "license": "MIT",
   "devDependencies": {
     "@hookform/resolvers": "^2.9.7",
-    "antd": "^4.21.6",
+    "antd": "5.3.0",
     "antd-jalali": "^0.9.4",
     "react": ">16.8.6",
     "react-dom": ">16.8.6",
@@ -101,25 +101,5 @@
     "webpack": "^5.73.0",
     "webpack-cli": "^4.10.0",
     "webpack-dev-server": "^4.9.2"
-  },
-  "lint-staged": {
-    "**/*.{js,jsx,ts,tsx}": [
-      "npx prettier --write",
-      "npx eslint --fix"
-    ]
-  },
-  "jest": {
-    "transform": {
-      "^.+\\.tsx$": "ts-jest",
-      "^.+\\.ts$": "ts-jest"
-    },
-    "moduleNameMapper": {
-      "\\.(jpg|jpeg|png|gif|eot|otf|webp|svg|ttf|woff|woff2|mp4|webm|wav|mp3|m4a|aac|oga)$": "<rootDir>/src/mocks/file_mock.js",
-      "\\.(css|less)$": "<rootDir>/src/mocks/style_mock.js"
-    },
-    "setupFilesAfterEnv": [
-      "<rootDir>/src/test/settings.ts"
-    ],
-    "testEnvironment": "jsdom"
   }
 }
