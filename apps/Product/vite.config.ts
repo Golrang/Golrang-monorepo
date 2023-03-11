@@ -5,21 +5,8 @@ import svgrPlugin from 'vite-plugin-svgr';
 
 export default defineConfig({
   plugins: [react(), viteTsconfigPaths(), svgrPlugin()],
-  css: {
-    preprocessorOptions: {
-      less: {
-        javascriptEnabled: true,
-      },
-    },
-  },
-  resolve: {
-    alias: [{ find: /^~/, replacement: '' }],
-  },
   build: {
     outDir: './build',
-    rollupOptions: {
-      // external: ['antd/es/auto-complete/style', 'antd/es/theme/style'],
-    },
   },
   server: {
     port: 3000,
