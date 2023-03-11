@@ -6,7 +6,7 @@
     "dev": "yarn type && vite",
     "build": "yarn type && vite build",
     "preview": "vite preview",
-    "type": "tsc --noEmit --p './tsconfig.check.json'",
+    "type": "tsc --noEmit --p ./tsconfig.check.json",
     "proxy": "node ./api-server.js",
     "server": "concurrently --kill-others \"yarn proxy\" \"yarn dev\""
   },
