@@ -8,8 +8,7 @@
     "preview": "vite preview",
     "type": "tsc --noEmit --p './tsconfig.check.json'",
     "proxy": "node ./api-server.js",
-    "startServers": "concurrently --kill-others \"npm run proxy\" \"npm run start\"",
-    "lint": "eslint --fix \"./src/**/*.{js,jsx,ts,tsx,json}\""
+    "server": "concurrently --kill-others \"yarn proxy\" \"yarn dev\""
   },
   "dependencies": {
     "@hookform/resolvers": "^2.9.7",
